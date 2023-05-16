@@ -78,6 +78,8 @@ const printCard = async (filterBy) => {
 
 // start anchor events
 
+
+
 let relevantWrapper = document.getElementById("relevant");
 relevantWrapper.addEventListener("click", (event) => {
   relevantWrapper.classList.add("active");
